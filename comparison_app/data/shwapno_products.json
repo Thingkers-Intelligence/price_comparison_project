@@ -1,0 +1,314 @@
+[
+    {
+        "source": "shwapno",
+        "name": "Beetroot",
+        "price": "৳180",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/beet-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9756d61902ef2307bda4_Beet_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Carrot China (China Gajor) Kg",
+        "price": "৳120",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/china-carrot-china-gajor-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9757d61902ef2307bec9_China-Carrot-China-Gajor_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Shosha (Cucumber)",
+        "price": "৳45",
+        "quantity": "500gm",
+        "url": "https://www.shwapno.com/cucumber-shosha-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2d6465c458a3e0fbfb_Shosha-Cucumber_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Pudinapata (Mint Leaf)",
+        "price": "৳330",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/mint-leaf-pudinapata-7",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976ed61902ef2307d2b1_Mint-Leaf-Pudinapata_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kagzi (Lemon)",
+        "price": "৳6",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/lemon-kagzi-pcs",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975ad61902ef2307c11a_Lemon-Kagzi_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Lomba Lebu (Lemon Long)",
+        "price": "৳7",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/lemon-long-lomba-lebu-pcs",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976dd61902ef2307d184_Lemon-Long-Lomba-Lebu_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Lebu Gol (Lemon Round)",
+        "price": "৳7",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/lemon-round-lebu-gol-pcs",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976dd61902ef2307d1d7_Lemon-Round-Lebu-Gol_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Capsicum (Yellow)",
+        "price": "৳880",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/capsicum-yellow-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9760d61902ef2307c68b_Capsicum-Yellow_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Capsicum (Red)",
+        "price": "৳880",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/capsicum-red-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9761d61902ef2307c6ea_Capsicum-Red_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Capsicum (Green)",
+        "price": "৳360",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/capsicum-green-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9766d61902ef2307cbac_Capsicum-Green_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Tomato Round (India)",
+        "price": "৳160",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/tomato-round-india",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2d6465c458a3e0fbf0_Tomato-Round-Ind_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Salad Pata (Lettuce) Local",
+        "price": "৳850",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/lettuce-salad-pata-local-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975fd61902ef2307c57f_Lettuce-Salad-Pata-Local_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kochur Mukhi (Taro Roots)",
+        "price": "৳80",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/taro-roots-kochur-mukhi-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9759d61902ef2307c021_Taro-Roots-Kochur-Mukhi_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Dhoniapata (Coriander Leaf) Local",
+        "price": "৳250",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/coriander-leaf-dhoniapata-local-7",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976bd61902ef2307cfa2_Coriander-Leaf-Dhoniapata-Local_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kakrol (Teasel Gourd)",
+        "price": "৳100",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/teasel-gourd-kakrol-7",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976ed61902ef2307d279_Teasel-Gourd-Kakrol_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Loti (Taro Stolon)",
+        "price": "৳110",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/taro-stolon-loti-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/6706bb7c2b01cd80b299a3ba_Loti-Taro-Stolon_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Dhundul (Sponge Gourd)",
+        "price": "৳98",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/sponge-gourd-dhundul-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2a6465c458a3e0fba8_Dhundul-Sponge-Gourd_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Borboti (Long bean)",
+        "price": "৳120",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/long-bean-borboti-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9757d61902ef2307be41_Long-bean-Borboti_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kacha Morich (Chilli Green)",
+        "price": "৳220",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/chilli-green-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a336465c458a3e0fda7_Kacha-Morich-Chilli-Green_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Jhinga (Ridge Gourd)",
+        "price": "৳120",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/ridge-gourd-jhinga-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2b6465c458a3e0fbb3_Jhinga-Ridge-Gourd_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Begun Gol-Beguni (Brinjal Round)",
+        "price": "৳170",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/brinjal-round-beguun-gol-beguni-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2c6465c458a3e0fbe5_Begun-Gol-Beguni-Brinjal-Round_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Chichinga (Snake Gourd)",
+        "price": "৳90",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/snake-gourd-chichinga-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9757d61902ef2307be75_Snake-Gourd-Chichinga_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Usta (Bitter Gourd Small)",
+        "price": "৳125",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/bitter-gourd-small-usta-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2b6465c458a3e0fbc9_Usta-Bitter-Gourd-Small_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Begun Shobuj (Brinjal Round Green)",
+        "price": "৳130",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/brinjal-round-green-begun-shobuj-7",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976fd61902ef2307d311_Brinjal-Round-Green-Begun-Shobuj_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Korolla (Bitter Gourd Long)",
+        "price": "৳125",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/bitter-gourd-long-korolla-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2b6465c458a3e0fbc1_Korolla-Bitter-Gourd-Long_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Dherosh (Lady Finger)",
+        "price": "৳110",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/lady-finger-dherosh-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9760d61902ef2307c60c_Lady-Finger-Dherosh_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Lau (Bottle Gourd)",
+        "price": "৳90",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/bottle-gourd-lau-kg",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975ad61902ef2307c0d0_Bottle-Gourd-Lau_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Potol (Pointed Gourd)",
+        "price": "৳100",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/potol-pointed-gourd-7",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976ed61902ef2307d225_Potol-Pointed-Gourd_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Lomba Begun Premium - Beguni (Brinjal Long)",
+        "price": "৳105",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/beguun-lomba-beguni-p-7",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/668d1a2f6465c458a3e0fc33_Lomba-Begun-Premium-Beguni-Brinjal-Long_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kacha Pepe (Green Papaya)",
+        "price": "৳40",
+        "quantity": "1kg",
+        "url": "https://www.shwapno.com/green-papaya-6",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9759d61902ef2307bfe1_Green-Papaya_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Chalkumra (Wax Gourd)",
+        "price": "৳78",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/wax-gourd-chalkumra-kg",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/6605329e55503b55855d83d6_Wax-Gourd-Chalkumra_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kacha Misti Kumra (Green Pumpkin)",
+        "price": "৳90",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/green-pumpkin-kacha-misti-kumra-pcs",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975bd61902ef2307c1e6_Green-Pumpkin-Kacha-Misti-Kumra_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Mishti Kumra (Pumpkin)",
+        "price": "৳68",
+        "quantity": "Per Unit",
+        "url": "https://www.shwapno.com/mishti-kumra-kg",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975bd61902ef2307c18e_Mishti-Kumra_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Pui Shak (Malabar Spinach)",
+        "price": "৳45",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/malabar-spinach-pui-shak-per-bunch",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975cd61902ef2307c2f2_Malabar-Spinach-Pui-Shak_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Palong Shak (Spinach)",
+        "price": "৳35",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/palong-spinach-shak-per-bunch",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa975cd61902ef2307c295_Palong-Spinach-Shak_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Lal Shak (Red Amaranth Spinach)",
+        "price": "৳30",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/red-amaranth-spinach-lal-shak-per-bunch",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa976bd61902ef2307cf62_Red-Amaranth-Spinach-Lal-Shak_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kacha Kola (Green Banana)",
+        "price": "৳12",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/green-banana-kacha-kola-pcs",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9758d61902ef2307bfa2_Green-Banana-Kacha-Kola_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Kolmi Shak (Water Spinach)",
+        "price": "৳18",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/water-spinach-kolmi-shak-per-bunch",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9765d61902ef2307ca7c_Water-Spinach-Kolmi-Shak_1_415.webp"
+    },
+    {
+        "source": "shwapno",
+        "name": "Bombay Morich (Bombay Chili)",
+        "price": "৳6",
+        "quantity": "Per Piece",
+        "url": "https://www.shwapno.com/chili-bombay-pcs",
+        "image_url": "https://d2t8nl1y0ie1km.cloudfront.net/images/thumbs/65fa9756d61902ef2307bdf2_Chili-Bombay_1_415.webp"
+    }
+]

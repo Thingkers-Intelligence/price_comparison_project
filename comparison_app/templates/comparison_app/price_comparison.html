@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Price Comparison</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            /* MODIFIED: Reduced padding for a fuller look */
+            padding: 1.5rem;
+        }
+        .container {
+            /* MODIFIED: Removed max-width to allow full window width */
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1a2533;
+            /* MODIFIED: Aligned to the left for a standard full-width layout */
+            margin-bottom: 0.5em;
+        }
+        .subtitle {
+            /* MODIFIED: Aligned to the left */
+            color: #66727d;
+            margin-bottom: 2em;
+        }
+        .card-grid {
+            display: grid;
+            /* MODIFIED: Increased the minimum card width from 350px to 550px */
+            /* This will create fewer, wider cards per row */
+            grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+            gap: 1.5rem;
+        }
+        .comparison-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            display: flex;
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+        }
+        .comparison-card:hover {
+            transform: translateY(-5px);
+        }
+        .retailer-column {
+            flex: 1;
+            padding: 1.5rem;
+            position: relative;
+        }
+        .chaldal {
+            border-right: 1px solid #eef2f5;
+        }
+        .retailer-name {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin: 0 0 1rem 0;
+            color: #1a2533;
+        }
+        .product-name a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        .product-name a:hover {
+            color: #007bff;
+        }
+        .quantity-text {
+            font-size: 0.85rem;
+            color: #66727d;
+            margin: 0.5rem 0;
+        }
+        .unit-price {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 0 0 1.5rem 0;
+        }
+        .price-label {
+            font-size: 0.8rem;
+            color: #66727d;
+            margin-bottom: 0.25rem;
+        }
+        .price-per-kg {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a2533;
+        }
+        .cheaper .price-per-kg {
+            color: #28a745;
+        }
+        .winner-badge {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background-color: #28a745;
+            color: white;
+            padding: 0.25rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        .not-comparable {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-style: italic;
+            color: #66727d;
+        }
+        .messages { list-style-type: none; padding: 0; margin-bottom: 2em; }
+        .message { padding: 1rem; border-radius: 8px; color: white; }
+        .message.success { background-color: #28a745; }
+        .message.error { background-color: #dc3545; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Vegetable Price Comparison</h1>
+        <p class="subtitle">Chaldal vs. Shwapno | Last updated: {{ now|date:"F j, Y, g:i A" }} (Dhaka Time)</p>
+
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li class="message {{ message.tags }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <div class="card-grid">
+            {% for item in comparison_results %}
+                <div class="comparison-card">
+
+                    {% if item.chaldal_price_per_kg is not None and item.shwapno_price_per_kg is not None %}
+                        <div class="retailer-column chaldal {% if item.chaldal_price_per_kg <= item.shwapno_price_per_kg %}cheaper{% endif %}">
+                            <h3 class="retailer-name">Chaldal</h3>
+                            <p class="product-name"><a href="{{ item.chaldal_url }}" target="_blank">{{ item.chaldal_name }}</a></p>
+                            <p class="quantity-text">{{ item.chaldal_quantity }}</p>
+                            <p class="unit-price">Listed Price: ৳{{ item.chaldal_price|floatformat:2 }}</p>
+                            <p class="price-label">Price per KG</p>
+                            <p class="price-per-kg">৳{{ item.chaldal_price_per_kg|floatformat:2 }}</p>
+                            {% if item.chaldal_price_per_kg <= item.shwapno_price_per_kg %}
+                                <div class="winner-badge">Best Deal!</div>
+                            {% endif %}
+                        </div>
+                        <div class="retailer-column shwapno {% if item.shwapno_price_per_kg < item.chaldal_price_per_kg %}cheaper{% endif %}">
+                            <h3 class="retailer-name">Shwapno</h3>
+                            <p class="product-name"><a href="{{ item.shwapno_url }}" target="_blank">{{ item.shwapno_name }}</a></p>
+                            <p class="quantity-text">{{ item.shwapno_quantity }}</p>
+                            <p class="unit-price">Listed Price: ৳{{ item.shwapno_price|floatformat:2 }}</p>
+                            <p class="price-label">Price per KG</p>
+                            <p class="price-per-kg">৳{{ item.shwapno_price_per_kg|floatformat:2 }}</p>
+                            {% if item.shwapno_price_per_kg < item.chaldal_price_per_kg %}
+                                <div class="winner-badge">Best Deal!</div>
+                            {% endif %}
+                        </div>
+                    {% else %}
+                        <div class="not-comparable">
+                            <p>Cannot compare "{{ item.chaldal_name }}" by weight.</p>
+                        </div>
+                    {% endif %}
+                </div>
+            {% empty %}
+                <p>No comparison data found. Please run the data processing script.</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

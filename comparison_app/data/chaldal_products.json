@@ -1,0 +1,410 @@
+[
+    {
+        "source": "chaldal",
+        "name": "Boro Alu (Big Diamond Potato) ± 50 gm",
+        "quantity": "1 kg",
+        "price_original": "29",
+        "price": "25",
+        "url": "https://chaldal.com/big-potato-1-kg"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Peyaj 1 kg & Potato Regular 2 kg (Combo)",
+        "quantity": null,
+        "price_original": "133",
+        "price": "119",
+        "url": "https://chaldal.com/deshi-peyaj-50-gm-1-kg-potato-regular-50-gm-2-kg-combo"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Peyaj (Local Onion) ± 50 gm",
+        "quantity": "1 kg",
+        "price_original": "85",
+        "price": "75",
+        "url": "https://chaldal.com/onion-local-1-kg-2"
+    },
+    {
+        "source": "chaldal",
+        "name": "Potato Regular (± 50 gm)",
+        "quantity": "1 kg",
+        "price_original": null,
+        "price": "24",
+        "url": "https://chaldal.com/potato-alu-1-kg-2"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lal Alu (Red Potato Cardinal) ± 50 gm",
+        "quantity": "1 kg",
+        "price_original": "29",
+        "price": "25",
+        "url": "https://chaldal.com/potato-lal-alu-1-kg"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kacha Morich (Green Chilli) ±12 gm",
+        "quantity": "250 gm",
+        "price_original": "60",
+        "price": "39",
+        "url": "https://chaldal.com/green-chilli-250-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Roshun (Garlic Imported) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "100",
+        "price": "79",
+        "url": "https://chaldal.com/garlic-roshun-premium-500-gm-2"
+    },
+    {
+        "source": "chaldal",
+        "name": "Coriander Leaves (Dhonia Pata) ± 10 gm",
+        "quantity": "100 gm",
+        "price_original": "30",
+        "price": "19",
+        "url": "https://chaldal.com/coriander-leaves-dhoniyapata-50-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Red Tomato ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "80",
+        "price": "69",
+        "url": "https://chaldal.com/red-tomato-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Potol (Pointed Gourd) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "39",
+        "url": "https://chaldal.com/potol-b-grade-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Dheros (Ladies Finger) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "50",
+        "price": "39",
+        "url": "https://chaldal.com/ladies-finger-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lal Peyaj (Onion Red) ± 50 gm",
+        "quantity": "1 kg",
+        "price_original": "100",
+        "price": "95",
+        "url": "https://chaldal.com/lal-peyaj-onion-red-50-gm-1-kg"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Shosha (Local Cucumber) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "39",
+        "url": "https://chaldal.com/deshi-cucumber-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Gajor (Local Carrot) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "45",
+        "url": "https://chaldal.com/carrot-deshi-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lal Shak (Red Spinach)",
+        "quantity": "1 bundle",
+        "price_original": "29",
+        "price": "25",
+        "url": "https://chaldal.com/lal-shak-1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kacha Pepe (Green Papaya) ± 70 gm",
+        "quantity": "1.4 kg",
+        "price_original": "60",
+        "price": "35",
+        "url": "https://chaldal.com/papaya-14-kg"
+    },
+    {
+        "source": "chaldal",
+        "name": "Misti Kumra Fali (Sweet Pumpkin Slice) ± 40 gm",
+        "quantity": "1 kg",
+        "price_original": "70",
+        "price": "59",
+        "url": "https://chaldal.com/sweet-pumpkin-1-slice"
+    },
+    {
+        "source": "chaldal",
+        "name": "Ada (Imported Ginger) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "119",
+        "price": "99",
+        "url": "https://chaldal.com/ada-imported-ginger-25-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lomba Lebu (Long Lemon)",
+        "quantity": "4 pcs",
+        "price_original": "40",
+        "price": "35",
+        "url": "https://chaldal.com/long-big-lemon-4-pcs"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kolmi Shak (Water Spinach)",
+        "quantity": "1 bundle",
+        "price_original": "19",
+        "price": "15",
+        "url": "https://chaldal.com/water-spinach-1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Chichinga (Snake Gourd) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "39",
+        "url": "https://chaldal.com/snake-gourd-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Roshun (Garlic Local) ±25 gm",
+        "quantity": "500 gm",
+        "price_original": "70",
+        "price": "65",
+        "url": "https://chaldal.com/garlic-local-net-weight-10-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Shosha (Cucumber) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "40",
+        "price": "35",
+        "url": "https://chaldal.com/cucumber-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Ada (Local Ginger) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "159",
+        "price": "89",
+        "url": "https://chaldal.com/deshi-ada-local-ginger-25-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Palong Shak (Palong Spinach)",
+        "quantity": "1 bundle",
+        "price_original": null,
+        "price": "39",
+        "url": "https://chaldal.com/palong-spinach-1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Borboti (Long Bean) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "55",
+        "url": "https://chaldal.com/long-bean-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Gol Lebu (Round Lemon)",
+        "quantity": "4 pcs",
+        "price_original": "39",
+        "price": "29",
+        "url": "https://chaldal.com/round-lemon-4-pcs"
+    },
+    {
+        "source": "chaldal",
+        "name": "Korola (Bitter Gourd) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "55",
+        "price": "49",
+        "url": "https://chaldal.com/bitter-gourd-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kochur Mukhi (Taro Roots) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "40",
+        "price": "35",
+        "url": "https://chaldal.com/kochur-mukhi-1-kg"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lau (Bottle Gourd)",
+        "quantity": "each",
+        "price_original": "89",
+        "price": "79",
+        "url": "https://chaldal.com/gourd-lau-1-pcs"
+    },
+    {
+        "source": "chaldal",
+        "name": "Beetroot ±25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "79",
+        "url": "https://chaldal.com/beetroot-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Potato Regular (± 25 gm)",
+        "quantity": "600 gm",
+        "price_original": null,
+        "price": "15",
+        "url": "https://chaldal.com/potato-regular-25-gm-600-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Green Capsicum ± 15 gm",
+        "quantity": "300 gm",
+        "price_original": null,
+        "price": "119",
+        "url": "https://chaldal.com/green-capsicum-300-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lomba Kalo Begun (Long Brinjal Black) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "60",
+        "price": "55",
+        "url": "https://chaldal.com/long-brinjal-black-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kacha Kola (Banana Green)",
+        "quantity": "4 pcs",
+        "price_original": "59",
+        "price": "49",
+        "url": "https://chaldal.com/banana-green-4-pcs"
+    },
+    {
+        "source": "chaldal",
+        "name": "Dhundhul (Sponge Gourd) ±20 gm",
+        "quantity": "500 gm",
+        "price_original": "45",
+        "price": "39",
+        "url": "https://chaldal.com/sponge-gourd-dhundul-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Misti Alu (Sweet Potato) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "99",
+        "price": "79",
+        "url": "https://chaldal.com/sweet-potato-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Pui Shak (Pui Spinach)",
+        "quantity": "1 bundle",
+        "price_original": "45",
+        "price": "29",
+        "url": "https://chaldal.com/pui-shak-pui-spinach1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kagozi Lebu (Kagozi Lemon)",
+        "quantity": "4 pcs",
+        "price_original": null,
+        "price": "29",
+        "url": "https://chaldal.com/kagzi-lemon-4-pcs"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kakrol (Sweet Bitter Gourd) ±25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "49",
+        "url": "https://chaldal.com/sweet-bitter-gourd-net-weight-20-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Uchche (Local Bitter Gourd) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "55",
+        "price": "49",
+        "url": "https://chaldal.com/bitter-gourd-b-grade-deshi-korola-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Jali Kumra (Water Pumpkin)",
+        "quantity": "each",
+        "price_original": "75",
+        "price": "65",
+        "url": "https://chaldal.com/water-pumpkin-1-pcs"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kochu Shak",
+        "quantity": "1 bundle",
+        "price_original": "30",
+        "price": "25",
+        "url": "https://chaldal.com/kochu-shak-1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Peyaj (Local Onion) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "45",
+        "price": "39",
+        "url": "https://chaldal.com/deshi-peyaj-local-onion-25-gm-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Sobuj Gol Begun (Round Brinjals Green) ±35 gm",
+        "quantity": "700 gm",
+        "price_original": "100",
+        "price": "89",
+        "url": "https://chaldal.com/round-brinjals-green-net-weight-50-gm-700-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Jhinga (Ridge Gourd) ±20 gm",
+        "quantity": "500 gm",
+        "price_original": "55",
+        "price": "49",
+        "url": "https://chaldal.com/ridge-gourd-b-grade-jhinga-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Thankuni Pata (Pennywort Leaves)",
+        "quantity": "1 bundle",
+        "price_original": "15",
+        "price": "9",
+        "url": "https://chaldal.com/pennywort-thankuni-leaves-1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Kochur Loti (Stolon Of Taro) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "50",
+        "price": "39",
+        "url": "https://chaldal.com/stolon-of-taro-kochur-loti-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Lal Alu (Red Potato) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": "25",
+        "price": "19",
+        "url": "https://chaldal.com/red-potato-bogra-alu-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Data Shak (Data Spinach)",
+        "quantity": "1 bundle",
+        "price_original": "35",
+        "price": "25",
+        "url": "https://chaldal.com/data-shak-1-bundle"
+    },
+    {
+        "source": "chaldal",
+        "name": "Loading more...",
+        "quantity": null,
+        "price_original": null,
+        "price": null,
+        "url": "https://chaldal.com/fresh-vegetable"
+    }
+]
