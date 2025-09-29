@@ -82,12 +82,12 @@
         "chaldal_quantity": "1 bundle",
         "chaldal_url": "https://chaldal.com/lal-shak-1-bundle",
         "chaldal_price": 25.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Lal Shak (Red Amaranth Spinach)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/red-amaranth-spinach-lal-shak-per-bunch",
         "shwapno_price": 30.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 82
     },
     {
@@ -108,12 +108,12 @@
         "chaldal_quantity": "4 pcs",
         "chaldal_url": "https://chaldal.com/long-big-lemon-4-pcs",
         "chaldal_price": 35.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Lomba Lebu (Lemon Long)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/lemon-long-lomba-lebu-pcs",
         "shwapno_price": 7.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 100
     },
     {
@@ -121,12 +121,12 @@
         "chaldal_quantity": "1 bundle",
         "chaldal_url": "https://chaldal.com/water-spinach-1-bundle",
         "chaldal_price": 15.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Kolmi Shak (Water Spinach)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/water-spinach-kolmi-shak-per-bunch",
         "shwapno_price": 18.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 100
     },
     {
@@ -160,12 +160,12 @@
         "chaldal_quantity": "1 bundle",
         "chaldal_url": "https://chaldal.com/palong-spinach-1-bundle",
         "chaldal_price": 39.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Palong Shak (Spinach)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/palong-spinach-shak-per-bunch",
         "shwapno_price": 35.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 84
     },
     {
@@ -186,12 +186,12 @@
         "chaldal_quantity": "4 pcs",
         "chaldal_url": "https://chaldal.com/round-lemon-4-pcs",
         "chaldal_price": 29.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Lebu Gol (Lemon Round)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/lemon-round-lebu-gol-pcs",
         "shwapno_price": 7.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 100
     },
     {
@@ -225,12 +225,12 @@
         "chaldal_quantity": "each",
         "chaldal_url": "https://chaldal.com/gourd-lau-1-pcs",
         "chaldal_price": 79.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Lau (Bottle Gourd)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/bottle-gourd-lau-kg",
         "shwapno_price": 90.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 100
     },
     {
@@ -277,12 +277,12 @@
         "chaldal_quantity": "4 pcs",
         "chaldal_url": "https://chaldal.com/banana-green-4-pcs",
         "chaldal_price": 49.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Kacha Kola (Green Banana)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/green-banana-kacha-kola-pcs",
         "shwapno_price": 12.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 100
     },
     {
@@ -303,12 +303,12 @@
         "chaldal_quantity": "1 bundle",
         "chaldal_url": "https://chaldal.com/pui-shak-pui-spinach1-bundle",
         "chaldal_price": 29.0,
-        "chaldal_price_per_unit": NaN,
+        "chaldal_price_per_unit": null,
         "shwapno_name": "Pui Shak (Malabar Spinach)",
         "shwapno_quantity": "Per Piece",
         "shwapno_url": "https://www.shwapno.com/malabar-spinach-pui-shak-per-bunch",
         "shwapno_price": 45.0,
-        "shwapno_price_per_unit": NaN,
+        "shwapno_price_per_unit": null,
         "match_score": 77
     },
     {

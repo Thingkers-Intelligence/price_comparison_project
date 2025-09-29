@@ -1,0 +1,2 @@
+PS C:\Users\sejan\compititor\price_comparison_project> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\Users\sejan\compititor\price_comparison_project> .\price_comparison_env\Scripts\Activate.ps1

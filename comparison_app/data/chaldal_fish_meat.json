@@ -1,0 +1,43 @@
+[
+    {
+        "source": "chaldal",
+        "name": "Kacha Morich (Green Chilli) ±12 gm",
+        "quantity": "250 gm",
+        "price_original": null,
+        "price": "39.0",
+        "url": "https://chaldal.com/green-chilli-250-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Red Tomato ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "69.0",
+        "url": "https://chaldal.com/red-tomato-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Potol (Pointed Gourd) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "39.0",
+        "url": "https://chaldal.com/potol-b-grade-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Dheros (Ladies Finger) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "39.0",
+        "url": "https://chaldal.com/ladies-finger-500-gm"
+    },
+    {
+        "source": "chaldal",
+        "name": "Deshi Shosha (Local Cucumber) ± 25 gm",
+        "quantity": "500 gm",
+        "price_original": null,
+        "price": "39.0",
+        "url": "https://chaldal.com/deshi-cucumber-net-weight-20-gm-500-gm"
+    }
+    
+]

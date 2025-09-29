@@ -1,0 +1,28 @@
+[
+    {
+        "chaldal_name": "Kacha Morich (Green Chilli) ±12 gm",
+        "chaldal_quantity": "250 gm",
+        "chaldal_url": "https://chaldal.com/green-chilli-250-gm",
+        "chaldal_price": 39.0,
+        "chaldal_price_per_unit": 156.0,
+        "shwapno_name": "Kacha Morich (Chilli Green)",
+        "shwapno_quantity": "1kg",
+        "shwapno_url": "https://www.shwapno.com/chilli-green-6",
+        "shwapno_price": 220.0,
+        "shwapno_price_per_unit": 220.0,
+        "match_score": 100
+    },
+    {
+        "chaldal_name": "Red Tomato ± 25 gm",
+        "chaldal_quantity": "500 gm",
+        "chaldal_url": "https://chaldal.com/red-tomato-500-gm",
+        "chaldal_price": 69.0,
+        "chaldal_price_per_unit": 138.0,
+        "shwapno_name": "Tomato Round (India)",
+        "shwapno_quantity": "1kg",
+        "shwapno_url": "https://www.shwapno.com/tomato-round-india",
+        "shwapno_price": 160.0,
+        "shwapno_price_per_unit": 160.0,
+        "match_score": 82
+    }
+]

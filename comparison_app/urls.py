@@ -11,4 +11,8 @@ urlpatterns = [
     # When a user goes to your-site.com/compare/oil/, run the oil_comparison_view.
     # The template uses {% url 'oil_comparison' %} to find this path.
     path('compare/oil/', views.oil_comparison_view, name='oil_comparison'),
+
+    
+    #seeejaan
+    path('comparison/fish-meat/', views.fish_meat_comparison_view, name='fish_meat_comparison'),
 ]

@@ -109,3 +109,29 @@ def oil_comparison_view(request):
     }
     # Render the new common base template
     return render(request, 'comparison_app/comparison_base.html', context)
+
+
+#seejan
+def fish_meat_comparison_view(request):
+    """
+    Handles the view for Fish & Meat products.
+    """
+    results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', 'fish_meat_comparison_results.json')
+    comparison_results = []
+    try:
+        with open(results_file_path, 'r', encoding='utf-8') as f:
+            comparison_results = json.load(f)
+        messages.success(request, f"Loaded {len(comparison_results)} matched fish & meat products.")
+    except FileNotFoundError:
+        messages.error(request, "Fish & Meat data file not found. Please run the processing script.")
+    except json.JSONDecodeError:
+        messages.error(request, "Fish & Meat data file is corrupt or empty.")
+
+    context = {
+        'comparison_results': comparison_results,
+        'active_tab': 'fish_meat'  # Tell the template this is the active tab
+    }
+    return render(request, 'comparison_app/fish_meat_comparison.html', {
+    'comparison_results': comparison_results
+})
+

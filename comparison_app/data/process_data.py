@@ -129,3 +129,12 @@ if __name__ == "__main__":
         output_file='oil_comparison_results.json',
         category_name='oil'
     )
+
+    #seeejaan
+    # Process the fish and meat files
+    process_and_match(
+        chaldal_file='chaldal_fish_meat.json',
+        shwapno_file='shwapno_fish_meat.json',
+        output_file='comparison_fish_meat_results.json',
+        category_name='fish and meat'
+    )
