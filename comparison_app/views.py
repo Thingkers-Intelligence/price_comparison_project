@@ -1,61 +1,4 @@
 # comparison_app/views.py
-# import os
-# import json
-# import logging
-# from django.shortcuts import render
-# from django.conf import settings
-# from django.contrib import messages
-
-# logger = logging.getLogger(__name__)
-
-# def price_comparison_view(request):
-#     results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', 'comparison_results.json')
-#     comparison_results = []
-
-#     try:
-#         with open(results_file_path, 'r', encoding='utf-8') as f:
-#             comparison_results = json.load(f)
-#         messages.success(request, f"Loaded {len(comparison_results)} matched products.")
-    
-#     except FileNotFoundError:
-#         logger.error(f"The file {results_file_path} was not found.")
-#         messages.error(request, "The comparison data file was not found. Please run the processing script.")
-#     except json.JSONDecodeError:
-#         logger.error(f"Error decoding JSON from {results_file_path}.")
-#         messages.error(request, "The comparison data file is corrupt or empty.")
-
-#     context = {
-#         'comparison_results': comparison_results
-#     }
-#     return render(request, 'comparison_app/price_comparison.html', context)
-
-
-# def oil_comparison_view(request):
-#     # 1. Point to the new oil results file
-#     results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', 'oil_comparison_results.json')
-#     oil_comparison_results = []
-
-#     try:
-#         with open(results_file_path, 'r', encoding='utf-8') as f:
-#             oil_comparison_results = json.load(f)
-#         messages.success(request, f"Loaded {len(oil_comparison_results)} matched oil products.")
-    
-#     except FileNotFoundError:
-#         logger.error(f"The file {results_file_path} was not found.")
-#         messages.error(request, "The oil comparison data file was not found. Please run the processing script.")
-#     except json.JSONDecodeError:
-#         logger.error(f"Error decoding JSON from {results_file_path}.")
-#         messages.error(request, "The oil comparison data file is corrupt or empty.")
-
-#     context = {
-#         # 2. Use a clear context variable name
-#         'comparison_results': oil_comparison_results
-#     }
-#     # 3. Render the new oil-specific template
-#     return render(request, 'comparison_app/oil_comparison.html', context)
-
-
-
 import os
 import json
 import logging
@@ -65,73 +8,63 @@ from django.contrib import messages
 
 logger = logging.getLogger(__name__)
 
+def load_comparison_file(filename):
+    """
+    Load a JSON comparison file and return the list.
+    If file is missing or corrupt, return empty list.
+    """
+    results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', filename)
+    try:
+        with open(results_file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        logger.warning(f"File not found: {results_file_path}")
+        return []
+    except json.JSONDecodeError:
+        logger.error(f"JSON decode error in file: {results_file_path}")
+        return []
+
+# --- Vegetable comparison view ---
 def price_comparison_view(request):
-    """
-    Handles the view for Vegetable products.
-    """
-    results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', 'comparison_results.json')
-    comparison_results = []
-    try:
-        with open(results_file_path, 'r', encoding='utf-8') as f:
-            comparison_results = json.load(f)
+    comparison_results = load_comparison_file('comparison_results.json')
+
+    if comparison_results:
         messages.success(request, f"Loaded {len(comparison_results)} matched vegetable products.")
-    except FileNotFoundError:
-        messages.error(request, "Vegetable data file not found. Please run the processing script.")
-    except json.JSONDecodeError:
-        messages.error(request, "Vegetable data file is corrupt or empty.")
+    else:
+        messages.warning(request, "No vegetable products found. Please run the processing script.")
 
     context = {
         'comparison_results': comparison_results,
-        'active_tab': 'vegetables'  # Tell the template this is the active tab
+        'active_tab': 'vegetables'
     }
-    # Render the new common base template
     return render(request, 'comparison_app/comparison_base.html', context)
 
-
+# --- Oil comparison view ---
 def oil_comparison_view(request):
-    """
-    Handles the view for Oil products.
-    """
-    results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', 'oil_comparison_results.json')
-    comparison_results = []
-    try:
-        with open(results_file_path, 'r', encoding='utf-8') as f:
-            comparison_results = json.load(f)
+    comparison_results = load_comparison_file('oil_comparison_results.json')
+
+    if comparison_results:
         messages.success(request, f"Loaded {len(comparison_results)} matched oil products.")
-    except FileNotFoundError:
-        messages.error(request, "Oil data file not found. Please run the processing script.")
-    except json.JSONDecodeError:
-        messages.error(request, "Oil data file is corrupt or empty.")
+    else:
+        messages.warning(request, "No oil products found. Please run the processing script.")
 
     context = {
         'comparison_results': comparison_results,
-        'active_tab': 'oil'  # Tell the template this is the active tab
+        'active_tab': 'oil'
     }
-    # Render the new common base template
     return render(request, 'comparison_app/comparison_base.html', context)
 
-
-#seejan
 def fish_meat_comparison_view(request):
-    """
-    Handles the view for Fish & Meat products.
-    """
-    results_file_path = os.path.join(settings.BASE_DIR, 'comparison_app', 'data', 'fish_meat_comparison_results.json')
-    comparison_results = []
-    try:
-        with open(results_file_path, 'r', encoding='utf-8') as f:
-            comparison_results = json.load(f)
+    comparison_results = load_comparison_file('comparison_fish_meat_results.json')  # corrected filename
+
+    if comparison_results:
         messages.success(request, f"Loaded {len(comparison_results)} matched fish & meat products.")
-    except FileNotFoundError:
-        messages.error(request, "Fish & Meat data file not found. Please run the processing script.")
-    except json.JSONDecodeError:
-        messages.error(request, "Fish & Meat data file is corrupt or empty.")
+    else:
+        messages.warning(request, "No fish & meat products found. Please run the processing script.")
 
     context = {
         'comparison_results': comparison_results,
-        'active_tab': 'fish_meat'  # Tell the template this is the active tab
+        'active_tab': 'fish_meat'
     }
-    return render(request, 'comparison_app/fish_meat_comparison.html', {
-    'comparison_results': comparison_results
-})
-
+    # Use the common template for all categories
+    return render(request, 'comparison_app/comparison_base.html', context)

@@ -134,7 +134,7 @@ if __name__ == "__main__":
     # Process the fish and meat files
     process_and_match(
         chaldal_file='chaldal_fish_meat.json',
-        shwapno_file='shwapno_fish_meat.json',
+        shwapno_file='shwapno_meat_meat.json',
         output_file='comparison_fish_meat_results.json',
         category_name='fish and meat'
     )
