@@ -1,0 +1,74 @@
+[
+    {
+        "chaldal_name": "Broiler Chicken Skin On ± 50 gm",
+        "chaldal_price": 289.0,
+        "chaldal_price_per_unit": 289.0,
+        "shwapno_name": "Broiler Chicken Premium (With Skin)",
+        "shwapno_price": 285.0,
+        "shwapno_price_per_unit": NaN,
+        "match_score": 83
+    },
+    {
+        "chaldal_name": "Broiler Chicken Wings (± 50 gm)",
+        "chaldal_price": 329.0,
+        "chaldal_price_per_unit": 329.0,
+        "shwapno_name": "Broiler Chicken Thigh",
+        "shwapno_price": 369.0,
+        "shwapno_price_per_unit": 369.0,
+        "match_score": 86
+    },
+    {
+        "chaldal_name": "Broiler Whole Chicken Leg Skin On (± 50 gm)",
+        "chaldal_price": 399.0,
+        "chaldal_price_per_unit": 399.0,
+        "shwapno_name": "Broiler Chicken Premium (Without Skin)",
+        "shwapno_price": 303.0,
+        "shwapno_price_per_unit": NaN,
+        "match_score": 79
+    },
+    {
+        "chaldal_name": "Broiler Chicken Breast With Bone ± 25 gm",
+        "chaldal_price": 235.0,
+        "chaldal_price_per_unit": 470.0,
+        "shwapno_name": "Broiler Chicken Breast Regular (With Bone)",
+        "shwapno_price": 465.0,
+        "shwapno_price_per_unit": 465.0,
+        "match_score": 100
+    },
+    {
+        "chaldal_name": "Broiler Chicken Drumsticks ± 25 gm (6-8 pcs)",
+        "chaldal_price": 239.0,
+        "chaldal_price_per_unit": 478.0,
+        "shwapno_name": "Broiler Chicken Drumstick",
+        "shwapno_price": 464.0,
+        "shwapno_price_per_unit": 464.0,
+        "match_score": 91
+    },
+    {
+        "chaldal_name": "Broiler Chicken Breast Boneless ± 25 gm",
+        "chaldal_price": 279.0,
+        "chaldal_price_per_unit": 558.0,
+        "shwapno_name": "Broiler Chicken Breast Boneless",
+        "shwapno_price": 549.0,
+        "shwapno_price_per_unit": 549.0,
+        "match_score": 100
+    },
+    {
+        "chaldal_name": "Roast Chicken ± 10 gm",
+        "chaldal_price": 179.0,
+        "chaldal_price_per_unit": 650.91,
+        "shwapno_name": "Roast Chicken",
+        "shwapno_price": 175.0,
+        "shwapno_price_per_unit": NaN,
+        "match_score": 100
+    },
+    {
+        "chaldal_name": "Beef Boneless ± 25 gm",
+        "chaldal_price": 559.0,
+        "chaldal_price_per_unit": 1118.0,
+        "shwapno_name": "Beef Boneless",
+        "shwapno_price": 1245.0,
+        "shwapno_price_per_unit": NaN,
+        "match_score": 100
+    }
+]

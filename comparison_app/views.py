@@ -26,7 +26,7 @@ def load_comparison_file(filename):
 
 # --- Vegetable comparison view ---
 def price_comparison_view(request):
-    comparison_results = load_comparison_file('comparison_results.json')
+    comparison_results = load_comparison_file('vegetables\comparison_vegetables_results.json')
 
     if comparison_results:
         messages.success(request, f"Loaded {len(comparison_results)} matched vegetable products.")
@@ -39,9 +39,24 @@ def price_comparison_view(request):
     }
     return render(request, 'comparison_app/comparison_base.html', context)
 
+# --- snacks comparison view ---
+def snacks_comparison_view(request):
+    comparison_results = load_comparison_file('snacks\comparison_snacks_results.json')
+
+    if comparison_results:
+        messages.success(request, f"Loaded {len(comparison_results)} matched vegetable products.")
+    else:
+        messages.warning(request, "No Snacks products found. Please run the processing script.")
+
+    context = {
+        'comparison_results': comparison_results,
+        'active_tab': 'snacks'
+    }
+    return render(request, 'comparison_app/comparison_base.html', context)
+
 # --- Oil comparison view ---
 def oil_comparison_view(request):
-    comparison_results = load_comparison_file('oil_comparison_results.json')
+    comparison_results = load_comparison_file('oil\comparison_oil_results.json')
 
     if comparison_results:
         messages.success(request, f"Loaded {len(comparison_results)} matched oil products.")
@@ -55,7 +70,7 @@ def oil_comparison_view(request):
     return render(request, 'comparison_app/comparison_base.html', context)
 
 def fish_meat_comparison_view(request):
-    comparison_results = load_comparison_file('comparison_fish_meat_results.json')  # corrected filename
+    comparison_results = load_comparison_file('fish_meat\comparison_fish_meat_results.json')  # corrected filename
 
     if comparison_results:
         messages.success(request, f"Loaded {len(comparison_results)} matched fish & meat products.")

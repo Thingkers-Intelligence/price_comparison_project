@@ -1,0 +1,110 @@
+[
+    {
+        "chaldal_name": "Olympic Marie Gold Biscuit",
+        "chaldal_price": 40.0,
+        "chaldal_price_per_unit": 210.53,
+        "shwapno_name": "Olympic Choco Marie Biscuit 200gm",
+        "shwapno_price": 45.0,
+        "shwapno_price_per_unit": 225.0,
+        "match_score": 78
+    },
+    {
+        "chaldal_name": "Kolson Macaroni Bamboo",
+        "chaldal_price": 85.0,
+        "chaldal_price_per_unit": 212.5,
+        "shwapno_name": "Kolson Macaroni 400 gm",
+        "shwapno_price": 85.0,
+        "shwapno_price_per_unit": 212.5,
+        "match_score": 81
+    },
+    {
+        "chaldal_name": "Kolson Macaroni Assorted Pack",
+        "chaldal_price": 120.0,
+        "chaldal_price_per_unit": 240.0,
+        "shwapno_name": "Kolson Macaroni Assorted Pack 300gm",
+        "shwapno_price": 65.0,
+        "shwapno_price_per_unit": 216.67,
+        "match_score": 91
+    },
+    {
+        "chaldal_name": "Olympic Milk Marie Biscuits",
+        "chaldal_price": 50.0,
+        "chaldal_price_per_unit": 250.0,
+        "shwapno_name": "Olympic Milk Marie Biscuit 200gm",
+        "shwapno_price": 45.0,
+        "shwapno_price_per_unit": 225.0,
+        "match_score": 88
+    },
+    {
+        "chaldal_name": "Ifad Plain Toast Biscuit",
+        "chaldal_price": 100.0,
+        "chaldal_price_per_unit": 285.71,
+        "shwapno_name": "Ifad Plaine Toast Biscuit 350gm",
+        "shwapno_price": 87.0,
+        "shwapno_price_per_unit": 248.57,
+        "match_score": 87
+    },
+    {
+        "chaldal_name": "Ifad Butter Delight Biscuit",
+        "chaldal_price": 50.0,
+        "chaldal_price_per_unit": 333.33,
+        "shwapno_name": "Ifad Butter Delight Biscuit 150(±)25gm",
+        "shwapno_price": 44.0,
+        "shwapno_price_per_unit": 1760.0,
+        "match_score": 92
+    },
+    {
+        "chaldal_name": "Ifad Kaju Delight Biscuit",
+        "chaldal_price": 60.0,
+        "chaldal_price_per_unit": 342.86,
+        "shwapno_name": "Ifad Kaju Delight Biscuit 175(±)45gm",
+        "shwapno_price": 52.0,
+        "shwapno_price_per_unit": 1155.56,
+        "match_score": 91
+    },
+    {
+        "chaldal_name": "Ifad Choco Delight Biscuit",
+        "chaldal_price": 60.0,
+        "chaldal_price_per_unit": 342.86,
+        "shwapno_name": "Ifad Choco Delight Biscuit 175(±)45gm",
+        "shwapno_price": 52.0,
+        "shwapno_price_per_unit": 1155.56,
+        "match_score": 91
+    },
+    {
+        "chaldal_name": "Danish Doreo Black Chocolate Sandwich Biscuit 12 pack",
+        "chaldal_price": 180.0,
+        "chaldal_price_per_unit": 428.57,
+        "shwapno_name": "Danish Doreo Blackchoc Sandwich Biscuit 140gm",
+        "shwapno_price": 60.0,
+        "shwapno_price_per_unit": 428.57,
+        "match_score": 82
+    },
+    {
+        "chaldal_name": "Berrak Elbow Pasta (Buy 1 Get 1 Free)",
+        "chaldal_price": 390.0,
+        "chaldal_price_per_unit": 780.0,
+        "shwapno_name": "Berrak Pasta Elbow Righi 500gm (Buy1 Get1 Free)",
+        "shwapno_price": 390.0,
+        "shwapno_price_per_unit": 780.0,
+        "match_score": 82
+    },
+    {
+        "chaldal_name": "Fresh Fantasy Chocolate Filled Cookies Biscuit",
+        "chaldal_price": 150.0,
+        "chaldal_price_per_unit": 857.14,
+        "shwapno_name": "Fresh Fantasy Chocolate Filled Biscuit 75gm",
+        "shwapno_price": 55.0,
+        "shwapno_price_per_unit": 733.33,
+        "match_score": 85
+    },
+    {
+        "chaldal_name": "Munchy's Lexus Chocolate Cream Sandwich Biscuits",
+        "chaldal_price": 375.0,
+        "chaldal_price_per_unit": 1973.68,
+        "shwapno_name": "Fresh Fun Fill Sandwich Chocolate Cream Biscuit 36(±)2gm",
+        "shwapno_price": 9.0,
+        "shwapno_price_per_unit": 4500.0,
+        "match_score": 79
+    }
+]

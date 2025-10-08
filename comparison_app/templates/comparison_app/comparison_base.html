@@ -64,6 +64,8 @@
             <a href="{% url 'oil_comparison' %}" class="tab-link {% if active_tab == 'oil' %}active{% endif %}">Oil</a>
             
             <a href="{% url 'fish_meat_comparison' %}" class="tab-link {% if active_tab == 'fish_meat' %}active{% endif %}">Fish & Meat</a>
+           <a href="{% url 'snacks_comparison' %}" class="tab-link {% if active_tab == 'snacks' %}active{% endif %}">Snacks</a>
+
         </div>
 
         {% if messages %}
